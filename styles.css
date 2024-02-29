@@ -15,7 +15,7 @@ header {
     width: 100%;
     background-color: #333333;
     color: #fff;
-    padding: 20px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 header h1 {
@@ -37,6 +37,7 @@ nav ul {
     list-style: none;
     padding: 0px;
     text-align: center;
+    margin: 20px 0px;
 }
 
 nav ul li {
@@ -47,7 +48,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
-    margin: 10px;
+    margin: 10px 10px;
 }
 
 .here {
@@ -120,7 +121,7 @@ section {
 }
 
 @media only screen and (max-width: 750px) {
-    .content-list { width: 90%; }
+    .content-list { width: 95%; }
 }
 
 .project {
@@ -160,6 +161,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+footer p{
+    text-align: right;
 }
 
 footer a:hover{
