@@ -121,12 +121,6 @@ section {
     justify-content: center;
 }
 
-/*.home-nav {
-    
-    justify-content: center;
-    align-items: center;
-} */
-
 #home a {
     display:flex;
     flex-flow: column;
@@ -144,7 +138,6 @@ section {
     color: #f4f4f4;
 }
 
-
 #home h3 {
     margin: 10px 0;
 }
@@ -159,7 +152,9 @@ section {
 }
 
 @media only screen and (max-width: 750px) {
-    .content-list { width: 95%; }
+    .content-list { width: 100%; }
+    #home a { width: 100%; }
+    h2 { margin-top: 200px; }
 }
 
 .project {
