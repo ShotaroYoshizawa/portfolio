@@ -57,6 +57,44 @@ nav ul li a {
     border-radius: 5px;
 }
 
+.back-img-home {
+    background: url("picture/tanbo1.jpg")
+      center / cover; 
+}
+
+.back-img-about {
+    background: url("picture/tanbo2.jpg")
+      center / cover; 
+}
+
+.back-img-skill {
+    background: url("picture/tanbo3.jpg")
+      center / cover; 
+}
+
+.back-img-portfolio {
+    background: url("picture/tanbo4.jpg")
+      center / cover; 
+}
+
+.back-img-other {
+    background: url("picture/tanbo5.jpg")
+      center / cover; 
+}
+
+.back-img-contact {
+    background: url("picture/tanbo6.jpg")
+      center / cover; 
+}
+
+.transparent{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100vw;
+    padding-bottom: 50%;
+}
+
+
+
 h2 {
     margin-top: 130px;
 }
